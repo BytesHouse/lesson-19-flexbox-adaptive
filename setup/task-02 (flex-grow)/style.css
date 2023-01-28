@@ -1,0 +1,51 @@
+.container {
+  background: rgb(0, 0, 0, 0.1);
+  /* 1) Создать flex контейнер
+     2) Установить свойство wrap
+     3) Выровнять по дополнительной оси элементы по центру
+  */
+  height: 400px;
+}
+
+.item {
+  height: 120px;
+  font-family: sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Для каждого элемента установить значение flex-grow */
+
+.block1 {
+  background-color: red; 
+  width: 0px;
+}
+.block2 {
+  background-color: green; 
+  width: 0px;
+  align-self: flex-end;
+}
+.block3 {
+  background-color: blue;
+  width: 0px; 
+}
+.block4 {
+  background-color: yellow;
+  width: 0px; 
+  align-self: flex-start;
+}
+.block5 {
+  background-color: navy;
+  width: 0px; 
+  color: white;
+}
+.block6 {
+  background-color: purple;
+  width: 0px; 
+  height: auto;
+  align-self: stretch;
+  }

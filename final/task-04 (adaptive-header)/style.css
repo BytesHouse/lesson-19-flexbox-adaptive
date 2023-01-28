@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  border: 2px solid #D7DBDD;
+  flex-wrap: wrap;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 5px 30px;
+    color: #16A2D7;
+    font-size: 40px;
+    border-bottom: 2px solid transparent;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.tab:hover {
+    border-bottom-width: 5px;
+    border-bottom-color: #4EBBE4;
+}
+
